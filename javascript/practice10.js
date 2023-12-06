@@ -1,6 +1,6 @@
 // Practice #10
 
-
+/*
 console.log("Practicing JavaScript Part-10");
 console.log("\n");
 console.log("Arrays in javascript");
@@ -83,3 +83,4 @@ let num1=[10,20,30,40];
 let num2= num1.slice(2);   // form that idex it will be slice NOTE:-take new variable for running
 console.log(num2);
 
+*/

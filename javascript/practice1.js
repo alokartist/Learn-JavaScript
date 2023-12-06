@@ -6,6 +6,7 @@ console.log("hello world");
 var b="Alok";//VAR variable is tha oldest form used in previous javascript
 //using VAR variable is decleared once and folled same as if for the blocks also 
 var x="alok";
+
     {
         var x=22;
         console.log(x);

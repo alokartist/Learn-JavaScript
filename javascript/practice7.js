@@ -1,10 +1,10 @@
 // Practice #7
 
-/*
+
 console.log("Practicing JavaScript Part-7");
 console.log("\n");
 console.log("Strings");
-
+/*
 let a="ALOK";
 let b='ALOK';
 
@@ -21,7 +21,7 @@ let c=`Alok`;
 let sentence=`${c} loves ${x}`; //another way to print sentence using `${}`.
 
 console.log(sentence);
-
+*/
 
 //Escape sequence characters
 let abc="Alok\"kumar"; // ignore \
@@ -43,7 +43,7 @@ console.log(abc2)
 let abc3="Alok\rkumar"; // carriage return
 console.log(abc3)
 
-*/
+
 
 // String properties and Methods:-
 
