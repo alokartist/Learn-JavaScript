@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+body {
+    background-color: #000;
+    color: #00ff00; /* Green text */
+    font-family: 'Courier New', monospace;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 20px;
+    margin: 0;
+}
+
+
+.blinking-cursor {
+    animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
