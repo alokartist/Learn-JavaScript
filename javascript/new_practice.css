@@ -1,0 +1,17 @@
+/* Apply to the container of the lines */
+.container {
+    max-width: 100%; /* Ensures the container doesn't exceed the screen width */
+}
+
+/* Apply to the lines of text */
+.text-lines {
+    word-wrap: break-word; /* or overflow-wrap: break-word; */
+}
+
+/* Media query for adjusting styles based on screen width */
+@media screen and (max-width: 600px) {
+    /* Adjust styles for screens narrower than 600px */
+    .text-lines {
+        /* Additional styles or adjustments as needed */
+    }
+}
