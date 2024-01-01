@@ -4,8 +4,8 @@ console.log("\n");
 console.log(" HELLO WORLD PRINTING IN DIFFRENT WAYS ");
 
 console.log("Hello world");
-let k="Hello world";
-console.log();
+let a="Hello world";
+console.log(a);
 
 var x="Hello world";
 console.log(x);
