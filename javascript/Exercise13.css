@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+  }
+  h2 {
+    text-align: center;
+  }
+  .question {
+    margin-bottom: 20px;
+  }
+  .options {
+    margin-left: 20px;
+  }
+  .option {
+    margin-bottom: 10px;
+  }
+  #result {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
