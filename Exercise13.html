@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link rel="stylesheet" href="Exercise13.css">
+</head>
+<body>
+
+  <h2>Quiz App</h2>
+
+  <div class="question" id="question1">
+    <p>What is the capital of France?</p>
+    <div class="options">
+      <div class="option">
+        <input type="radio" name="q1" value="Paris"> Paris
+      </div>
+      <div class="option">
+        <input type="radio" name="q1" value="London"> London
+      </div>
+      <div class="option">
+        <input type="radio" name="q1" value="Berlin"> Berlin
+      </div>
+    </div>
+  </div>
+
+  <div class="question" id="question2">
+    <p>What is the largest planet in our solar system?</p>
+    <div class="options">
+      <div class="option">
+        <input type="radio" name="q2" value="Jupiter"> Jupiter
+      </div>
+      <div class="option">
+        <input type="radio" name="q2" value="Saturn"> Saturn
+      </div>
+      <div class="option">
+        <input type="radio" name="q2" value="Earth"> Earth
+      </div>
+    </div>
+  </div>
+
+  <button onclick="submitQuiz()">Submit Quiz</button>
+
+  <div id="result"></div>
+
+  <script src="Exercise13.js"></script>
+
+</body>
+</html>
