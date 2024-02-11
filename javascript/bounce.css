@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+button{
+    background-color: black;
+    padding: 20px 40px;
+    font-size: 30px;
+    font-weight: 100;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+@keyframes bounce {
+    0%, 25%, 50%, 75%, 90%, 100%{
+        transform: translateY(0);
+    }
+    15%, 40%{
+        transform: translateY(-20px);
+    }
+    65%, 80%{
+        transform: translateY(-15px);
+    }
+    95%{
+        transform: translateY(-5px);
+    }
+}
+button:hover{
+    animation: bounce 2s linear;
+}
