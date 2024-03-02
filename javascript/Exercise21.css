@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  #game-container {
+    text-align: center;
+  }
+  .card {
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+    cursor: pointer;
+    perspective: 1000px;
+  }
+  .card:hover .card-inner,
+  .card.flipped .card-inner {
+    transform: rotateY(180deg);
+  }
+  .card-inner {
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+  }
+  .card-front,
+  .card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  .card-back {
+    transform: rotateY(180deg);
+  }
