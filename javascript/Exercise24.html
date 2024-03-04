@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Console Pattern</title>
+</head>
+<body>
+    <script>
+        // Function to generate a unique console pattern
+        function generateConsolePattern() {
+            for (let i = 1; i <= 5; i++) {
+                let pattern = ' '.repeat(5 - i) + '*'.repeat(2 * i - 1);
+                console.log(pattern);
+            }
+        }
+
+        // Call the function to generate the pattern
+        generateConsolePattern();
+    </script>
+</body>
+</html>
