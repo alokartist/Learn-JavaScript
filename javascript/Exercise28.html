@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bisection Method</title>
+    <link rel="stylesheet" href="Exercise28.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bisection Method</h1>
+        <div class="input-container">
+            <label for="function">f(x):</label>
+            <input type="text" id="function" placeholder="Enter function">
+            <label for="a">a:</label>
+            <input type="number" id="a" step="0.01">
+            <label for="b">b:</label>
+            <input type="number" id="b" step="0.01">
+            <label for="tolerance">Tolerance:</label>
+            <input type="number" id="tolerance" step="0.0001">
+            <button onclick="bisection()">Calculate</button>
+        </div>
+        <div class="output-container">
+            <p id="output"></p>
+        </div>
+    </div>
+    <script src="Exercise28.js"></script>
+</body>
+</html>
